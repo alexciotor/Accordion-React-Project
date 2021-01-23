@@ -13,7 +13,7 @@ setShowInfo(!showInfo)
 
  }} className="btn">{showInfo? <FiMinus/> : <FiPlus/>}</button>
  </div>
- <div className="info">
+ <div className="info2">
  { showInfo && <p>{info}</p>}
  </div>
  </article>
